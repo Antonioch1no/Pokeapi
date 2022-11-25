@@ -1,0 +1,93 @@
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.App {
+	font-family: sans-serif;
+	text-align: center;
+}
+h1 {
+	font-size: 50px;
+	font-family: "Alfa Slab One", sans-serif;
+	color: red;
+	padding: 30px;
+}
+.logo {
+	margin: 20px;
+	padding: 10px;
+}
+
+.logo {
+	color: rgba(255, 255, 255, 0.9) !important;
+	border-color: #a2be6e;
+	position: relative;
+	border-radius: 20px;
+}
+.logo:hover {
+	color: rgba(255, 255, 255, 1) !important;
+	box-shadow: 0 4px 16px rgba(49, 138, 172, 1);
+	transition: all 0.2s ease;
+}
+
+.ash {
+	width: 200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.container {
+	padding: 15px;
+}
+.containerP {
+	display: grid;
+	grid-template-columns: auto auto;
+	justify-content: center;
+	text-align: center;
+	gap: 70px;
+}
+.pokedex {
+	background-image: url(https://w0.peakpx.com/wallpaper/513/815/HD-wallpaper-pokemon-pokeball-white-pokemon-gray-grey-simple-white-pokeball.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.cardW {
+	width: fit-content;
+}
+.pokeImage {
+	width: 100%;
+	height: 100px;
+}
+.cardId {
+	background-color: #28b463;
+	width: fit-content;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+.cardId h2 {
+	color: #ffff;
+	margin: 0 auto;
+	padding: 10px;
+}
+.idImage {
+	box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+	padding: 10px;
+	margin-top: -30px;
+	margin-bottom: 10px;
+	width: 200px;
+}
+.stats {
+	background: rgba(255, 255, 255, 0.25);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+	backdrop-filter: blur(6px);
+	-webkit-backdrop-filter: blur(6px);
+	border-radius: 10px;
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	padding: 10px;
+}
+.stats h3 {
+	display: grid;
+	grid-template-columns: auto auto;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
+}
